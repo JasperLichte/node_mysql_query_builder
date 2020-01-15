@@ -1,0 +1,29 @@
+{
+  "name": "query_builder_for_mysql_in_node",
+  "version": "1.0.1",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JasperLichte/node_mysql_query_builder.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JasperLichte/node_mysql_query_builder/issues"
+  },
+  "homepage": "https://github.com/JasperLichte/node_mysql_query_builder#readme",
+  "devDependencies": {
+    "@types/events": "^3.0.0",
+    "@types/node": "^13.1.7",
+    "typescript": "^3.7.4"
+  },
+  "dependencies": {
+    "mysql2": "^2.1.0"
+  }
+}

@@ -19,8 +19,8 @@ const [rows] = await select('id')
                         field('id').equals(42)
                     )
                     .orderBy('id')
-                    .only(34)
-                    execute();
+                    .limitTo(34)
+                    .execute();
 ```
 
 ### Insert statement

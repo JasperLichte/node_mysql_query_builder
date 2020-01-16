@@ -21,7 +21,7 @@ export default class SelectQuery extends Query {
         return this;
     }
 
-    public only(limit: number): SelectQuery {
+    public limitTo(limit: number): SelectQuery {
         this.queryString = `${this.queryString} LIMIT ${limit}`;
 
         return this;

@@ -19,10 +19,8 @@ const [rows] = await select('id')
                         field('id').equals(42)
                     )
                     .orderBy('id')
-                    .only(34);
-// yields: SELECT id FROM users WHERE id = 42 ORDER BY id LIMIT 34
-
-query.execute();
+                    .only(34)
+                    execute();
 ```
 
 ### Insert statement
